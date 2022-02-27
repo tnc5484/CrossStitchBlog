@@ -1,1 +1,2 @@
 theme: jekyll-theme-slate
+show_excerpts: true # set to false to remove excerpts on the homepage
