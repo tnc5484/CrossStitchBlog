@@ -7,13 +7,21 @@ The primary purpose of this blog is to serve as a space where I can document my 
 If you happen to stumble across this and want to scroll through my notes, please be my guest. Just know that I am likely not an expert on any of these topics.
 
 
-### Project [COMING SOON]
+### Project
 
-I would like to create a cross stitch pattern generator.
+I would like to create a cross stitch pattern generator. I'll provide a very high level overview of the goal here, but in future sections will dive into more detail.
 
-- what is cross stitch?
+Cross stitch is a type of embroidery where you create an X (or cross) in a tiled pattern. I like to think of this as filing in "the pixels" of an image.
 
-- picture of car
+
+Below is a picture of my first cross project:
+![Cross stitched car created by me](car.png "Cross stitch car")
+
+The generator will need to be able to take an image from a web page and translate it to an array of pixels.
+
+Then it will need to determine how to translate the colors of those pixels to the closest floss color, because embroidery floss is not sold in an infinite range of colors. To start, it will work with DMC floss colors. The process of figuring out how to best translate the pixel color to embroidery floss color is called dithering.
+
+Once the translation is made, the generator will show the new array in the form of a pattern on the web page.
 
 ### What to Expect
 
