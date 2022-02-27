@@ -1,2 +1,2 @@
-# CrossStitchBlog
-a blog for my cross stitch project
+# Cross Stitch Blog
+To document my learning journey
