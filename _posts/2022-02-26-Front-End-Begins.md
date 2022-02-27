@@ -1,3 +1,8 @@
+---
+title: "Front End Begins"
+date: 2022-02-26
+---
+
 # Front End Begins
 
 First up, creating a very basic webpage that can take in an image and return back another image. Later the image taken in will be the image to generate a pattern for, and the image retuned will be the pattern.
